@@ -1,0 +1,680 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: -5px;
+  margin-bottom: 6px;
+  background-color: white;
+  font-family:'Fontawesome webfont', sans-serif;
+  font-size: 55px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family:'Fontawesome webfont', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 4px;
+  font-family: Exo, sans-serif;
+  color: white;
+}
+a {
+  color: #00e;
+}
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 17px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(51, 28, 28, 0.6);
+  background-color: white;
+  color: rgba(51, 28, 28, 0.6);
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.navmenu {
+  padding: 9px 20px 20px;
+  float: right;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family:'Droid Sans', sans-serif;
+  font-size: 21px;
+  line-height: 19px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0px;
+  text-indent: -17px;
+  text-transform: uppercase;
+}
+.navmenu:hover {
+  color: #0096ed;
+}
+.navcont {
+  padding-left: 0px;
+  float: none;
+}
+.nav-bar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 2px;
+  background-color: #d67a7a;
+}
+.navpic {
+  height: 800px;
+  padding-top: 441px;
+  padding-right: 500px;
+  background-image: url('../images/cover-facebook-1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.tophead {
+  position: static;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-bottom: 4px;
+  padding: 10px;
+  clear: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  opacity: 0.83;
+  font-family:'PT Sans', sans-serif;
+  color: white;
+  font-size: 48px;
+  line-height: 42px;
+  text-shadow: black 0px -1px 6px;
+}
+.bannertext {
+  padding: 0px;
+  font-family: Merriweather, serif;
+  color: whitesmoke;
+  font-size: 21px;
+  line-height: 26px;
+  text-decoration: underline;
+}
+.banner2 {
+  padding-top: 70px;
+  padding-bottom: 31px;
+  background-color: rgba(214, 122, 122, 0.99);
+}
+.about-us {
+  padding-top: 70px;
+  padding-bottom: 69px;
+}
+.banner2p {
+  margin-top: -20px;
+  margin-bottom: -8px;
+  padding: 0px;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.banner2text {
+  margin-top: -51px;
+  margin-bottom: -2px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 53px;
+  line-height: 52px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.deafhead {
+  margin-top: 13px;
+  margin-bottom: -5px;
+  font-family:'PT Sans', sans-serif;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.deafsub {
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: -1px;
+  padding-bottom: 9px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(242, 230, 230, 0.8);
+  direction: ltr;
+  font-family: Lato, sans-serif;
+  color: rgba(36, 29, 29, 0.4);
+  font-size: 25px;
+  text-align: center;
+}
+.deafcon {
+  padding-top: 81px;
+}
+.abouthead {
+  height: 395px;
+  margin-bottom: 59px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/office.jpg');
+  background-size: auto;
+}
+.aboutpictext {
+  min-height: 394px;
+  min-width: 482px;
+  padding: 0px;
+  float: right;
+  background-color: rgba(171, 44, 44, 0.61);
+}
+.aboutpich {
+  margin-top: 144px;
+  background-color: transparent;
+  font-family: Exo, sans-serif;
+  color: #f7f7f7;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+.aboutpict {
+  margin-top: -4px;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: center;
+}
+.progresshead {
+  margin-top: -1px;
+  margin-bottom: 0px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #080707;
+  font-size: 22px;
+  line-height: 0px;
+}
+.progressbar {
+  position: static;
+  padding: 21px 3px 21px 0px;
+  color: #e3caca;
+}
+.progresscol {
+  height: 411px;
+  max-height: 350px;
+}
+.col2head {
+  font-size: 25px;
+}
+.teamp {
+  margin-bottom: 32px;
+  font-family: Lato, sans-serif;
+  color: #403636;
+  font-size: 18px;
+  font-weight: 400;
+}
+.teamh {
+  font-family:'Open Sans', sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+.teamcon {
+  margin-top: 58px;
+}
+.teamblock {
+  background-color: rgba(171, 44, 44, 0.61);
+}
+.teampich {
+  margin-top: 7px;
+  margin-bottom: -2px;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+}
+.teampic2 {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  padding-bottom: 11px;
+  font-family: Exo, sans-serif;
+  color: white;
+  text-align: center;
+}
+.break1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url('../images/cover-facebook-1.jpg');
+}
+.break1head {
+  margin-bottom: 28px;
+  color: white;
+  text-align: center;
+}
+.breakpic {
+  position: relative;
+  left: 74px;
+  right: 30px;
+  bottom: 0px;
+  float: left;
+  text-align: center;
+}
+.breakpictest {
+  text-align: left;
+}
+.beakhead {
+  margin-top: 123px;
+  margin-right: -2px;
+  padding-right: 20px;
+  text-align: center;
+}
+.beakpic {
+  display: inline-block;
+  margin-left: 94px;
+  padding: 0px;
+}
+.breakhead {
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: Exo, sans-serif;
+  color: white;
+  text-align: center;
+}
+.breaktext {
+  color: #fff2f2;
+  font-size: 18px;
+  text-align: center;
+}
+.servies {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+.serviestext {
+  font-family:'Droid Sans', sans-serif;
+  color: #5c5050;
+  font-weight: 400;
+}
+.serviesrow {
+  margin-top: 24px;
+}
+.pricing {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.pricicing-table {
+  margin-top: 24px;
+  padding-top: 5px;
+}
+.pricing-head {
+  margin-bottom: 0px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.88);
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+.prcinghead2 {
+  text-align: center;
+}
+.pricingtext {
+  padding: 22px 15px 15px 28px;
+  background-color: #4d4949;
+  color: #f7f7f7;
+  font-size: 15px;
+  text-align: center;
+}
+.pricing-table1 {
+  padding: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(56, 53, 53, 0.2);
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.pricing-button {
+  position: static;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-right: 1px;
+  margin-left: 0px;
+  padding: 17px;
+  float: none;
+  clear: none;
+  background-color: rgba(0, 0, 0, 0.85);
+  direction: ltr;
+  font-family: Exo, sans-serif;
+  color: #f2f2f2;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.workus {
+  padding: 106px;
+  background-color: black;
+}
+.withus {
+  padding: 35px;
+  border: 2px solid whitesmoke;
+}
+.ushead {
+  margin-top: -20px;
+  padding: 0px;
+  background-color: black;
+  font-family:'PT Sans', sans-serif;
+  color: #fff5f5;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: center;
+}
+.abouttext {
+  margin-top: 5px;
+  color: #fffcfc;
+  text-align: center;
+}
+.break {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #3d2727;
+}
+.breaktext1 {
+  padding-top: 12px;
+  color: #f2eded;
+  text-align: center;
+}
+.contact {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.contactp {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #732929;
+  text-align: center;
+}
+.footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #695e5e;
+}
+.footerhead {
+  background-color: transparent;
+  color: white;
+  font-size: 26px;
+}
+.aboutp {
+  font-family:'Droid Sans', sans-serif;
+  color: #362828;
+}
+.menu {
+  padding-top: 8px;
+  padding-right: 29px;
+}
+.important {
+  font-size: 43px;
+}
+.contactform {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.test {
+  margin-right: -1px;
+  padding-right: 13px;
+}
+.contact-subit {
+  margin-top: 5px;
+  margin-right: 0px;
+  padding: 16px 36px 13px;
+  float: right;
+  background-color: rgba(214, 122, 122, 0.99);
+  color: white;
+}
+.text-area {
+  margin: -25px 1px 1px;
+  padding: 71px;
+}
+.comments {
+  margin-top: 0px;
+  padding-top: 27px;
+  padding-left: 4px;
+  color: rgba(51, 51, 51, 0.49);
+}
+.icon {
+  width: 207px;
+  height: 162px;
+  margin-left: 1px;
+  padding: 13px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: black;
+  font-family:'Fontawesome webfont', sans-serif;
+  color: white;
+  font-size: 120px;
+}
+.test2 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.test3 {
+  font-family:'Fontawesome webfont', sans-serif;
+  font-size: 20px;
+}
+.icon4 {
+  margin-top: 61px;
+  font-size: 116px;
+  text-align: center;
+}
+.iconhold {
+  width: 151px;
+  margin: 57px 0px 11px;
+  padding: 0px;
+  color: #0d0505;
+  text-align: center;
+}
+.serviescol {
+  margin: 0px;
+  padding-left: 7px;
+}
+.logo2 {
+  margin-top: 44px;
+  margin-left: 15px;
+  font-family:'Fontawesome webfont', sans-serif;
+  font-size: 124px;
+  text-align: center;
+}
+.icon1 {
+  margin-top: 41px;
+  margin-left: 22px;
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+}
+.icon-stuff {
+  margin-top: 20px;
+  margin-bottom: 33px;
+  font-family:'Fontawesome webfont', sans-serif;
+  color: white;
+  font-size: 59px;
+  text-align: center;
+}
+.icon-stuff2 {
+  font-family:'Fontawesome webfont', sans-serif;
+  color: white;
+  font-size: 43px;
+  text-align: center;
+}
+.icon3 {
+  margin-top: 51px;
+  margin-left: 20px;
+  font-size: 124px;
+  text-align: center;
+}
+.moble-header {
+  display: none;
+}
+.icon5 {
+  text-align: center;
+}
+html.w-mod-js *[data-ix="test"] {
+  opacity: 0.37;
+  height: 72px;
+  -webkit-transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  transform: translate(0px, -100px);
+}
+@media (max-width: 991px) {
+  .navmenu {
+    overflow-x: visible;
+    overflow-y: visible;
+    float: right;
+  }
+  .nav-bar {
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .menu {
+    position: static;
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-left: -7px;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-left: 0px;
+  }
+  .menu1 {
+    display: block;
+    margin-right: 2px;
+  }
+  .logo {
+    padding-right: 63px;
+  }
+  .icon4 {
+    margin-right: 1px;
+    margin-left: -10px;
+    font-size: 100px;
+  }
+  .logo2 {
+    margin-left: 5px;
+    font-size: 109px;
+  }
+  .icon1 {
+    margin-top: 49px;
+    margin-right: 3px;
+    margin-left: 8px;
+    padding-right: 0px;
+  }
+  .icon3 {
+    margin-right: 0px;
+    margin-left: 8px;
+    font-size: 108px;
+  }
+  .icon5 {
+    margin-top: 57px;
+    font-size: 94px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-family:'Fontawesome webfont', sans-serif;
+  }
+  p {
+    font-family: Lato, sans-serif;
+    color: black;
+    text-align: center;
+  }
+  .banner2p {
+    margin-top: 10px;
+  }
+  .banner2text {
+    margin-top: -52px;
+    font-family: Lato, sans-serif;
+    font-size: 52px;
+    line-height: 45px;
+  }
+  .deafcon {
+    display: block;
+  }
+  .progresscol {
+    margin-bottom: 17px;
+  }
+  .breakhead {
+    font-size: 34px;
+  }
+  .servieshead {
+    text-align: center;
+  }
+  .serviesrow {
+    display: none;
+  }
+  .breaktext1 {
+    font-size: 12px;
+  }
+  .footer-img {
+    display: none;
+  }
+  .moblie-header {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 43px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .moblie-text {
+    padding-bottom: 14px;
+    border-bottom: 5px solid rgba(242, 194, 194, 0.6);
+    text-align: center;
+  }
+  .servies-icon {
+    margin-top: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+}
+
+@font-face {
+  font-family: 'Fontawesome webfont';
+  src: url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
